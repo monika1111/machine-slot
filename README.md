@@ -13,7 +13,7 @@
   8. ReelsTable: which contains three Reel Component
   9. PayTable: where are noted prizes for combination
     
-    Alse we have a file lib/Constants where we keep our constants
+    Also we have a file lib/Constants where we keep our constants
 
  I have not used redux as the project are simple for it :)  
  
@@ -28,7 +28,7 @@
           (because we should have an order like 3XBAR, BAR, 2XBAR, SEVEN, CHERRY)
           (that data is kept on Reel/Reel.js as const mapValueToImage variable)
       We have the array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] which keeps the order of images(Symbols) 
-      After submit Spin bottom we generate random number from 1-10 range 
+      After click Spin bottom we generate random number from 1-10 range 
                 e.g  if it genereted 4 we cut the array 
                         [1,2,3]
                         [4,5,6,7,8,9,10]
